@@ -47,7 +47,11 @@ function updateAxisInfo(
     const prev = axis.current
     const prevTime = info.time
 
-    axis.current = element["scroll" + position]
+    axis.current = /Android.*(MicroMessenger|MQQBrowser)/i.test(
+        window.navigator.userAgent
+    )
+        ? document.body["scroll" + position] + element["scroll" + position]
+        : element["scroll" + position]
     axis.scrollLength = element["scroll" + length] - element["client" + length]
     axis.offset.length = 0
     axis.offset[0] = 0

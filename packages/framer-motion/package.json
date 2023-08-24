@@ -1,5 +1,5 @@
 {
-    "name": "framer-motion",
+    "name": "@taitopia-landing/framer-motion",
     "version": "10.16.1",
     "description": "A simple and powerful JavaScript animation library",
     "main": "dist/cjs/index.js",

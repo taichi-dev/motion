@@ -3152,6 +3152,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@taitopia-landing/framer-motion@workspace:packages/framer-motion":
+  version: 0.0.0-use.local
+  resolution: "@taitopia-landing/framer-motion@workspace:packages/framer-motion"
+  dependencies:
+    "@emotion/is-prop-valid": ^0.8.2
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  dependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@testing-library/dom@npm:^8.16.0, @testing-library/dom@npm:^8.5.0":
   version: 8.17.1
   resolution: "@testing-library/dom@npm:8.17.1"
@@ -7844,8 +7864,8 @@ __metadata:
     cache-loader: ^1.2.5
     convert-tsconfig-paths-to-webpack-aliases: ^0.9.2
     fork-ts-checker-webpack-plugin: ^6.2.0
-    framer-motion: ^10.16.0
-    framer-motion-3d: ^10.16.0
+    framer-motion: ^10.16.1
+    framer-motion-3d: ^10.16.1
     path-browserify: ^1.0.1
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -7911,14 +7931,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"framer-motion-3d@^10.16.0, framer-motion-3d@workspace:packages/framer-motion-3d":
+"framer-motion-3d@^10.16.1, framer-motion-3d@workspace:packages/framer-motion-3d":
   version: 0.0.0-use.local
   resolution: "framer-motion-3d@workspace:packages/framer-motion-3d"
   dependencies:
     "@react-three/fiber": ^8.2.2
     "@react-three/test-renderer": ^9.0.0
     "@rollup/plugin-commonjs": ^22.0.1
-    framer-motion: ^10.16.0
+    framer-motion: ^10.16.1
     react-merge-refs: ^2.0.1
   peerDependencies:
     "@react-three/fiber": ^8.2.2
@@ -7928,9 +7948,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"framer-motion@^10.16.0, framer-motion@workspace:packages/framer-motion":
-  version: 0.0.0-use.local
-  resolution: "framer-motion@workspace:packages/framer-motion"
+"framer-motion@npm:^10.16.1":
+  version: 10.16.1
+  resolution: "framer-motion@npm:10.16.1"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     tslib: ^2.4.0
@@ -7945,8 +7965,9 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  languageName: unknown
-  linkType: soft
+  checksum: 4140d210c302b2cc9d4a25e4235c11f404b7e95186d1600b7f1d8f16613953b0f51cb3b2de13d0da12719c482ad8711a6ea3c6827d6e5e0d71c741473a118d6a
+  languageName: node
+  linkType: hard
 
 "fresh@npm:0.5.2":
   version: 0.5.2
